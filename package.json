@@ -1,0 +1,24 @@
+{
+  "name": "eric-js-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thtop/eric-js-interview.git"
+  },
+  "keywords": [],
+  "author": "Thamonwan Maneechan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thtop/eric-js-interview/issues"
+  },
+  "homepage": "https://github.com/thtop/eric-js-interview#readme",
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
