@@ -8,7 +8,7 @@
 
 ### Why are there different types of data structures?
 
-- They all have different strengths and weaknesses 
+- They all have different strengths and weaknesses
 - Some are fast at **storing** and **recording** data, while others are not
 - Some are fast at **searching** and **retrieving** data, while others are not
 
@@ -25,18 +25,17 @@
   - Big O Notation
 - Be very well prepared for technical interview questions
 
+### Constructor functions and `this` keyword
 
-### constructor function
 ```js
 function User(firstName, lastName, age, gender) {
   this.firstName = firstName;
   this.lastName = lastName;
   this.age = age;
   this.gender = gender;
-};
+}
 
-
-const user = new User('Laxe', 'Commancer', 19, 'Woman');
+const user = new User("Laxe", "Commancer", 19, "Woman");
 
 console.log(user);
 ```
@@ -49,15 +48,15 @@ function User(firstName, lastName, age, gender) {
   this.lastName = lastName;
   this.age = age;
   this.gender = gender;
-};
-
-User.prototype.emailDomain = '@factbook.com';
-User.prototype.getEmailAddress = function() {
-  return this.firstName + this.lastName + this.emailDomain;
 }
 
-const user1 = new User('Commander', 'Lexa', 23, 'Woman');
-const user2 = new User('Clarke', 'Griffin', 19, 'Woman');
+User.prototype.emailDomain = "@factbook.com";
+User.prototype.getEmailAddress = function() {
+  return this.firstName + this.lastName + this.emailDomain;
+};
+
+const user1 = new User("Commander", "Lexa", 23, "Woman");
+const user2 = new User("Clarke", "Griffin", 19, "Woman");
 
 console.log(user1.getEmailAddress());
 console.log(user2.getEmailAddress());
