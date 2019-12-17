@@ -181,7 +181,7 @@ console.log(ll.indexOf(5));
 
 /**
 Constant runtime
-Big O Notation: "O (1)"
+Big O Notation: "O(1)"
 */
 function log(array) {
   console.log(array[0]);
@@ -196,7 +196,7 @@ log([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 ```js
 /**
 Linear runtime
-Big O Notation: "O (n)"
+Big O Notation: "O(n)"
 */
 function logAll(array) {
   for (let i = 0; i < array.length; i++) {
@@ -233,7 +233,7 @@ addAndLog(['A', 'B', 'C', 'D', 'E']); // 25 pairs logged out
 ```js
 /**
 Logarithmic runtime
-Big O Notation: "O (n^2)"
+Big O Notation: "O(n^2)"
 */
 function binarySearch(array, key) {
   let low = 0;
