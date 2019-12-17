@@ -175,7 +175,7 @@ console.log(ll.indexOf(5));
 
 > A notation used to classify how scalable an algorithm or function is.
 
-> And it allows us to estimate the worst case runtime of an algorithm. Or how long it takes the algorithm to complete based on the inupt size.
+> And it allows us to estimate the worst-case runtime of an algorithm. Or how long it takes the algorithm to complete based on the input size.
 
 ```js
 
