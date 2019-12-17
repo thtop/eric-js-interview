@@ -233,7 +233,7 @@ addAndLog(['A', 'B', 'C', 'D', 'E']); // 25 pairs logged out
 ```js
 /**
 Logarithmic runtime
-Big O Notation: "O(n^2)"
+Big O Notation: "O(log n)"
 */
 function binarySearch(array, key) {
   let low = 0;
