@@ -213,7 +213,7 @@ logAll([1, 2, 3, 4, 5, 6, 7])
 ```js
 /**
 Exponential runtime
-Big O Notation: "O (n^2)"
+Big O Notation: "O(n^2)"
 */
 function addAndLog(array) {
   for (let i = 0; i < array.length; i++) {
